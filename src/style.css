@@ -49,16 +49,28 @@ body {
     text-align: center;
   }
   
-  h1 {
-    color: #3db1ff; 
+  h1,
+  h2 {
+    color: #3db1ff;
     font-size: 36px;
     position: relative;
     margin-top: 20px; /* Ändere den Abstand oben */
-    margin-bottom:5px; /* Ändere den Abstand unten */
+    margin-bottom: 5px; /* Ändere den Abstand unten */
     margin-left: 3%; /* Setze den linken Rand auf automatisch (zentrieren horizontal) */
     margin-right: auto; /* Setze den rechten Rand auf automatisch (zentrieren horizontal) */
     text-align: center;
   }
+
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  h2 > a {
+    color: #3db1ff;
+  }
+
 
   /* Navigationsmenü */
 nav {

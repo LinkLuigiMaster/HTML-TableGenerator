@@ -1,0 +1,1 @@
+document.getElementById("button").addEventListener("click", function() {document.getElementById('table').innerHTML = `<tr>${"<td></td>".repeat(parseInt(document.getElementById('spalte').value))}</tr>`.repeat(parseInt(document.getElementById('zeile').value));});
